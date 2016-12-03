@@ -1,0 +1,10 @@
+<div class="detail" *ngIf="email">
+    <h2>{{email.subject}} Details!</h2>
+
+    <div><label>Message:</label> {{email.message}}
+
+    </div>
+
+    <button class=" col-md-4 btn btn-primary"(click)="goBack()">Back</button>
+</div>
+
